@@ -1,6 +1,5 @@
 use pyo3::prelude::*;
 
-/// Formats the sum of two numbers as string.
 #[pyfunction]
 fn big_calculation(elements: usize) {
     let mut big_array = vec![0; elements];
